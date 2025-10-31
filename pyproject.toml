@@ -1,0 +1,69 @@
+[tool.poetry]
+authors = ["Craig Trim <ctrim@maryville.edu>"]
+
+maintainers = ["Craig Trim <ctrim@maryville.edu>"]
+
+description = "WGU OSMT"
+license = "Proprietary"
+name = "wgu-osmt"
+readme = "README.md"
+version = "0.1.10"
+
+keywords = [
+    "grade",
+    "classifier",
+    "API",
+    "natural language processing",
+    "NLP",
+    "letter grades",
+    "education",
+    "machine learning",
+    "text analysis",
+]
+repository = "https://github.com/craigtrim/transcriptiq/libs/wgu-osmt"
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/craigtrim/transcriptiq/issues"
+
+
+[tool.poetry.dependencies]
+python = "^3.11.5"
+requests = "*"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "*"
+flakeheaven = "*"
+plac = "*"
+pre-commit = "^2.20.0"
+pytest = "*"
+
+[tool.poetry.build]
+generate-setup-file = true
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool.flakeheaven]
+base = "https://raw.githubusercontent.com/flakeheaven/flakeheaven/main/pyproject.toml"
+exclude = ["__init__.py", "README.md", "setup.py", ".venv", ".git"]
+format = "grouped"
+max_line_length = 500
+show_source = true
+
+[tool.flakeheaven.plugins]
+"flake8-*" = ["+*"]
+flake8-bandit = ["-*", "+S1??"]
+flake8-docstrings = ["-*"]
+pyflakes = ["+*", "-F401", "-F403"]
