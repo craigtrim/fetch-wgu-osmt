@@ -26,7 +26,7 @@ class FetchWGUData:
         self,
         csv_path: str,
         output_root: str | None = None,
-        proxies_path: str = "resources/input/proxies.txt",
+        proxies_path: str = "resources/config/proxies.txt",
         pause_seconds: float = 0.5,
     ):
         self.logger = configure_logger(__name__)
