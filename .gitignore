@@ -1,2 +1,5 @@
 config.sh
 poetry.lock
+requirements.txt
+resources/output/*
+dist
