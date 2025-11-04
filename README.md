@@ -175,7 +175,7 @@ python -m wgu_osmt.orchestrator /tmp/wgu-csvs
 Run service directly on one CSV:
 
 ```
-python -c "from wgu_osmt.svc.fetch_wgu_data import FetchWGUData; FetchWGUData(csv_path='resources/input/wgu-skills.csv').process()"
+python -c "from wgu_osmt_builder.svc.fetch_wgu_data import FetchWGUData; FetchWGUData(csv_path='resources/input/wgu-skills.csv').process()"
 ```
 
 ## Notes

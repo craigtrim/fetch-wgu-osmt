@@ -1,20 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: UTF-8 -*-
-
-
-import logging
-from logging import Logger
-
-
-def configure_logger(function_name: str) -> Logger:
-    root_logger = logging.getLogger()
-    if len(root_logger.handlers) > 0:
-        root_logger.setLevel(logging.INFO)
-    else:
-        logging.basicConfig(level=logging.INFO)
-    return logging.getLogger(function_name)
-
-
 user_agents: list[str] = [
     # --- Desktop Browsers ---
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",

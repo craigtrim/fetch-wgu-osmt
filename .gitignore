@@ -1,6 +1,59 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.so
+.eggs/
+*.egg-info/
+.venv/
+.venv*/
+.env
+.env.*
+.pytest_cache/
+.coverage
+htmlcov/
+pytestdebug.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local config
 config.sh
+wgu_osmt_builder/common/config/*.txt
+!wgu_osmt_builder/common/config/proxies.example.txt  # keep a template
+
+# Packaging outputs at repo root only
+/dist/
+/build/
+/site/
+
+# Legacy paths
+resources/*
+
+# Runtime intermediates
+interm/*
+*.html
+
+# Project data (do not version datasets or generated outputs here)
+wgu_osmt_builder/data/sources/*
+wgu_osmt_builder/data/raw/*
+wgu_osmt_builder/data/out/ttl/*
+wgu_osmt_builder/data/out/reports/*
+
+# Keep directory scaffolding
+!wgu_osmt_builder/data/.gitkeep
+!wgu_osmt_builder/data/sources/.gitkeep
+!wgu_osmt_builder/data/raw/.gitkeep
+!wgu_osmt_builder/data/out/.gitkeep
+!wgu_osmt_builder/data/out/ttl/.gitkeep
+!wgu_osmt_builder/data/out/reports/.gitkeep
+
+# Dependency pins (local only)
 poetry.lock
 requirements.txt
-resources/output/*
-dist
-config/*
