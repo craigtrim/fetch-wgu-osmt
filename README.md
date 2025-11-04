@@ -83,9 +83,9 @@ python -m wgu_osmt_builder.common.cli validate [--ttl <path>] [--out-dir <dir>] 
 ## Make targets
 
 ```
-make fetch       # fetch JSON from data/sources
-make build_ttl   # build per-skill TTL and merged skills.ttl
-make validate    # generate label reports
+make do_fetch     # fetch JSON from data/sources
+make do_build     # build per-skill TTL and merged skills.ttl
+make do_validate  # generate label reports
 ```
 
 ## Proxies (optional)

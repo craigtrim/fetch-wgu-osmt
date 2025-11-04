@@ -1,0 +1,574 @@
+:ID,:LABEL,prefLabel,code
+bls-0,Occupation,,0
+bls-11-0000,Occupation,Management Occupations,11-0000
+bls-11-1010,Occupation,Chief Executives,11-1010
+bls-11-1011,Occupation,Chief Executives,11-1011
+bls-11-1011.00,Occupation,Chief Executives,11-1011.00
+bls-11-1020,Occupation,General and Operations Managers,11-1020
+bls-11-1021,Occupation,General and Operations Managers,11-1021
+bls-11-1021.00,Occupation,General and Operations Managers,11-1021.00
+bls-11-2000,Occupation,"Advertising, Marketing, Promotions, Public Relations, and Sales Managers",11-2000
+bls-11-2010,Occupation,Advertising and Promotions Managers,11-2010
+bls-11-2011,Occupation,Advertising and Promotions Managers,11-2011
+bls-11-2011.00,Occupation,Advertising and Promotions Managers,11-2011.00
+bls-11-2020,Occupation,Marketing and Sales Managers,11-2020
+bls-11-2021,Occupation,Marketing Managers,11-2021
+bls-11-2021.00,Occupation,Marketing Managers,11-2021.00
+bls-11-2022,Occupation,Sales Managers,11-2022
+bls-11-2022.00,Occupation,Sales Managers,11-2022.00
+bls-11-2030,Occupation,Public Relations and Fundraising Managers,11-2030
+bls-11-2032,Occupation,Public Relations Managers,11-2032
+bls-11-2033,Occupation,Fundraising Managers,11-2033
+bls-11-3010,Occupation,Administrative Services and Facilities Managers,11-3010
+bls-11-3012,Occupation,Administrative Services Managers,11-3012
+bls-11-3012.00,Occupation,Administrative Services Managers,11-3012.00
+bls-11-3013,Occupation,Facilities Managers,11-3013
+bls-11-3020,Occupation,Computer and Information Systems Managers,11-3020
+bls-11-3021,Occupation,Computer and Information Systems Managers,11-3021
+bls-11-3021.00,Occupation,Computer and Information Systems Managers,11-3021.00
+bls-11-3030,Occupation,Financial Managers,11-3030
+bls-11-3031,Occupation,Financial Managers,11-3031
+bls-11-3031.00,Occupation,Financial Managers,11-3031.00
+bls-11-3031.02,Occupation,,11-3031.02
+bls-11-3050,Occupation,Industrial Production Managers,11-3050
+bls-11-3051,Occupation,Industrial Production Managers,11-3051
+bls-11-3051.00,Occupation,Industrial Production Managers,11-3051.00
+bls-11-3060,Occupation,Purchasing Managers,11-3060
+bls-11-3061,Occupation,Purchasing Managers,11-3061
+bls-11-3070,Occupation,"Transportation, Storage, and Distribution Managers",11-3070
+bls-11-3071,Occupation,"Transportation, Storage, and Distribution Managers",11-3071
+bls-11-3071.00,Occupation,"Transportation, Storage, and Distribution Managers",11-3071.00
+bls-11-3071.03,Occupation,,11-3071.03
+bls-11-3071.04,Occupation,Supply Chain Managers,11-3071.04
+bls-11-3110,Occupation,Compensation and Benefits Managers,11-3110
+bls-11-3111,Occupation,Compensation and Benefits Managers,11-3111
+bls-11-3111.00,Occupation,Compensation and Benefits Managers,11-3111.00
+bls-11-3120,Occupation,Human Resources Managers,11-3120
+bls-11-3121,Occupation,Human Resources Managers,11-3121
+bls-11-3121.00,Occupation,Human Resources Managers,11-3121.00
+bls-11-3130,Occupation,Training and Development Managers,11-3130
+bls-11-3131,Occupation,Training and Development Managers,11-3131
+bls-11-3131.00,Occupation,Training and Development Managers,11-3131.00
+bls-11-9010,Occupation,"Farmers, Ranchers, and Other Agricultural Managers",11-9010
+bls-11-9020,Occupation,Construction Managers,11-9020
+bls-11-9021,Occupation,Construction Managers,11-9021
+bls-11-9021.00,Occupation,Construction Managers,11-9021.00
+bls-11-9030,Occupation,Education and Childcare Administrators,11-9030
+bls-11-9031,Occupation,"Education and Childcare Administrators, Preschool and Daycare",11-9031
+bls-11-9032,Occupation,"Education Administrators, Kindergarten through Secondary",11-9032
+bls-11-9033,Occupation,"Education Administrators, Postsecondary",11-9033
+bls-11-9039,Occupation,"Education Administrators, All Other",11-9039
+bls-11-9110,Occupation,Medical and Health Services Managers,11-9110
+bls-11-9111,Occupation,Medical and Health Services Managers,11-9111
+bls-11-9150,Occupation,Social and Community Service Managers,11-9150
+bls-11-9151,Occupation,Social and Community Service Managers,11-9151
+bls-11-9151.00,Occupation,Social and Community Service Managers,11-9151.00
+bls-11-9190,Occupation,Miscellaneous Managers,11-9190
+bls-11-9198,Occupation,"Personal Service Managers, All Other; Entertainment and Recreation Managers, Except Gambling; and Managers, All Other",11-9198
+bls-11-9199,Occupation,"Managers, All Other",11-9199
+bls-11-9199.00,Occupation,"Managers, All Other",11-9199.00
+bls-11-9199.02,Occupation,Compliance Managers,11-9199.02
+bls-11_0000,Occupation,,11_0000
+bls-11_1010,Occupation,,11_1010
+bls-11_1011,Occupation,,11_1011
+bls-11_1020,Occupation,,11_1020
+bls-11_1021,Occupation,,11_1021
+bls-11_2010,Occupation,,11_2010
+bls-11_2020,Occupation,,11_2020
+bls-11_2022,Occupation,,11_2022
+bls-11_2030,Occupation,,11_2030
+bls-11_3010,Occupation,,11_3010
+bls-11_3020,Occupation,,11_3020
+bls-11_3030,Occupation,,11_3030
+bls-11_3031,Occupation,,11_3031
+bls-11_3050,Occupation,,11_3050
+bls-11_3051,Occupation,,11_3051
+bls-11_3070,Occupation,,11_3070
+bls-11_3071,Occupation,,11_3071
+bls-11_3130,Occupation,,11_3130
+bls-11_3131,Occupation,,11_3131
+bls-11_9020,Occupation,,11_9020
+bls-11_9021,Occupation,,11_9021
+bls-11_9110,Occupation,,11_9110
+bls-11_9150,Occupation,,11_9150
+bls-11_9151,Occupation,,11_9151
+bls-11_9190,Occupation,,11_9190
+bls-11_9198,Occupation,,11_9198
+bls-13-0000,Occupation,Business and Financial Operations Occupations,13-0000
+bls-13-1000,Occupation,Business Operations Specialists,13-1000
+bls-13-1010,Occupation,"Agents and Business Managers of Artists, Performers, and Athletes",13-1010
+bls-13-1011,Occupation,"Agents and Business Managers of Artists, Performers, and Athletes",13-1011
+bls-13-1011.00,Occupation,"Agents and Business Managers of Artists, Performers, and Athletes",13-1011.00
+bls-13-1020,Occupation,Buyers and Purchasing Agents,13-1020
+bls-13-1021,Occupation,"Buyers and Purchasing Agents, Farm Products",13-1021
+bls-13-1021.00,Occupation,"Buyers and Purchasing Agents, Farm Products",13-1021.00
+bls-13-1022,Occupation,"Wholesale and Retail Buyers, Except Farm Products",13-1022
+bls-13-1022.00,Occupation,"Wholesale and Retail Buyers, Except Farm Products",13-1022.00
+bls-13-1023,Occupation,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",13-1023
+bls-13-1023.00,Occupation,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",13-1023.00
+bls-13-1050,Occupation,Cost Estimators,13-1050
+bls-13-1051,Occupation,Cost Estimators,13-1051
+bls-13-1051.00,Occupation,Cost Estimators,13-1051.00
+bls-13-1070,Occupation,Human Resources Workers,13-1070
+bls-13-1071,Occupation,Human Resources Specialists,13-1071
+bls-13-1071.00,Occupation,Human Resources Specialists,13-1071.00
+bls-13-1074,Occupation,Farm Labor Contractors,13-1074
+bls-13-1075,Occupation,Labor Relations Specialists,13-1075
+bls-13-1075.00,Occupation,Labor Relations Specialists,13-1075.00
+bls-13-1080,Occupation,Logisticians and Project Management Specialists,13-1080
+bls-13-1081,Occupation,Logisticians,13-1081
+bls-13-1081.00,Occupation,Logisticians,13-1081.00
+bls-13-1082,Occupation,Project Management Specialists,13-1082
+bls-13-1082.00,Occupation,Project Management Specialists,13-1082.00
+bls-13-1110,Occupation,Management Analysts,13-1110
+bls-13-1111,Occupation,Management Analysts,13-1111
+bls-13-1111.00,Occupation,Management Analysts,13-1111.00
+bls-13-1140,Occupation,"Compensation, Benefits, and Job Analysis Specialists",13-1140
+bls-13-1141,Occupation,"Compensation, Benefits, and Job Analysis Specialists",13-1141
+bls-13-1141.00,Occupation,"Compensation, Benefits, and Job Analysis Specialists",13-1141.00
+bls-13-1150,Occupation,Training and Development Specialists,13-1150
+bls-13-1151,Occupation,Training and Development Specialists,13-1151
+bls-13-1151.00,Occupation,Training and Development Specialists,13-1151.00
+bls-13-1160,Occupation,Market Research Analysts and Marketing Specialists,13-1160
+bls-13-1161,Occupation,Market Research Analysts and Marketing Specialists,13-1161
+bls-13-1161.00,Occupation,Market Research Analysts and Marketing Specialists,13-1161.00
+bls-13-1190,Occupation,Miscellaneous Business Operations Specialists,13-1190
+bls-13-1191,Occupation,,13-1191
+bls-13-1198,Occupation,"Project Management Specialists and Business Operations Specialists, All Other",13-1198
+bls-13-1199,Occupation,"Business Operations Specialists, All Other",13-1199
+bls-13-2010,Occupation,Accountants and Auditors,13-2010
+bls-13-2011,Occupation,Accountants and Auditors,13-2011
+bls-13-2011.00,Occupation,Accountants and Auditors,13-2011.00
+bls-13-2011.01,Occupation,,13-2011.01
+bls-13-2011.02,Occupation,,13-2011.02
+bls-13-2030,Occupation,Budget Analysts,13-2030
+bls-13-2031,Occupation,Budget Analysts,13-2031
+bls-13-2031.00,Occupation,Budget Analysts,13-2031.00
+bls-13-2040,Occupation,Credit Analysts,13-2040
+bls-13-2041,Occupation,Credit Analysts,13-2041
+bls-13-2041.00,Occupation,Credit Analysts,13-2041.00
+bls-13-2050,Occupation,Financial Analysts and Advisors,13-2050
+bls-13-2051,Occupation,Financial and Investment Analysts,13-2051
+bls-13-2051.00,Occupation,Financial and Investment Analysts,13-2051.00
+bls-13-2052,Occupation,Personal Financial Advisors,13-2052
+bls-13-2053,Occupation,Insurance Underwriters,13-2053
+bls-13-2054,Occupation,Financial Risk Specialists,13-2054
+bls-13-2054.00,Occupation,Financial Risk Specialists,13-2054.00
+bls-13-2060,Occupation,Financial Examiners,13-2060
+bls-13-2061,Occupation,Financial Examiners,13-2061
+bls-13-2061.00,Occupation,Financial Examiners,13-2061.00
+bls-13-2080,Occupation,"Tax Examiners, Collectors and Preparers, and Revenue Agents",13-2080
+bls-13-2081,Occupation,"Tax Examiners and Collectors, and Revenue Agents",13-2081
+bls-13-2081.00,Occupation,"Tax Examiners and Collectors, and Revenue Agents",13-2081.00
+bls-13-2082,Occupation,Tax Preparers,13-2082
+bls-13-2099,Occupation,"Financial Specialists, All Other",13-2099
+bls-13-2099.00,Occupation,"Financial Specialists, All Other",13-2099.00
+bls-13_1020,Occupation,,13_1020
+bls-13_1050,Occupation,,13_1050
+bls-13_1051,Occupation,,13_1051
+bls-13_1070,Occupation,,13_1070
+bls-13_1071,Occupation,,13_1071
+bls-13_1080,Occupation,,13_1080
+bls-13_1110,Occupation,,13_1110
+bls-13_1111,Occupation,,13_1111
+bls-13_1140,Occupation,,13_1140
+bls-13_1150,Occupation,,13_1150
+bls-13_1160,Occupation,,13_1160
+bls-13_1161,Occupation,,13_1161
+bls-13_1190,Occupation,,13_1190
+bls-13_2010,Occupation,,13_2010
+bls-13_2011,Occupation,,13_2011
+bls-13_2030,Occupation,,13_2030
+bls-13_2031,Occupation,,13_2031
+bls-13_2040,Occupation,,13_2040
+bls-13_2041,Occupation,,13_2041
+bls-13_2050,Occupation,,13_2050
+bls-13_2060,Occupation,,13_2060
+bls-13_2061,Occupation,,13_2061
+bls-13_2080,Occupation,,13_2080
+bls-13_2081,Occupation,,13_2081
+bls-15-0000,Occupation,Computer and Mathematical Occupations,15-0000
+bls-15-1121.00,Occupation,,15-1121.00
+bls-15-1121.01,Occupation,,15-1121.01
+bls-15-1122,Occupation,,15-1122
+bls-15-1122.00,Occupation,,15-1122.00
+bls-15-1141.00,Occupation,,15-1141.00
+bls-15-1142.00,Occupation,,15-1142.00
+bls-15-1143.00,Occupation,,15-1143.00
+bls-15-1143.01,Occupation,,15-1143.01
+bls-15-1151.00,Occupation,,15-1151.00
+bls-15-1152.00,Occupation,,15-1152.00
+bls-15-1200,Occupation,Computer Occupations,15-1200
+bls-15-1210,Occupation,Computer and Information Analysts,15-1210
+bls-15-1211,Occupation,Computer Systems Analysts,15-1211
+bls-15-1212,Occupation,Information Security Analysts,15-1212
+bls-15-1220,Occupation,Computer and Information Research Scientists,15-1220
+bls-15-1221,Occupation,Computer and Information Research Scientists,15-1221
+bls-15-1221.00,Occupation,Computer and Information Research Scientists,15-1221.00
+bls-15-1230,Occupation,Computer Support Specialists,15-1230
+bls-15-1231,Occupation,Computer Network Support Specialists,15-1231
+bls-15-1232,Occupation,Computer User Support Specialists,15-1232
+bls-15-1240,Occupation,Database and Network Administrators and Architects,15-1240
+bls-15-1241,Occupation,Computer Network Architects,15-1241
+bls-15-1241.00,Occupation,Computer Network Architects,15-1241.00
+bls-15-1242,Occupation,Database Administrators,15-1242
+bls-15-1243,Occupation,Database Architects,15-1243
+bls-15-1243.00,Occupation,Database Architects,15-1243.00
+bls-15-1243.01,Occupation,Data Warehousing Specialists,15-1243.01
+bls-15-1244,Occupation,Network and Computer Systems Administrators,15-1244
+bls-15-1245,Occupation,Database Administrators and Architects,15-1245
+bls-15-1250,Occupation,"Software and Web Developers, Programmers, and Testers",15-1250
+bls-15-1251,Occupation,Computer Programmers,15-1251
+bls-15-1251.00,Occupation,Computer Programmers,15-1251.00
+bls-15-1252,Occupation,Software Developers,15-1252
+bls-15-1253,Occupation,Software Quality Assurance Analysts and Testers,15-1253
+bls-15-1254,Occupation,Web Developers,15-1254
+bls-15-1255,Occupation,Web and Digital Interface Designers,15-1255
+bls-15-1256,Occupation,Software Developers and Software Quality Assurance Analysts and Testers,15-1256
+bls-15-1257,Occupation,Web Developers and Digital Interface Designers,15-1257
+bls-15-1259,Occupation,,15-1259
+bls-15-1290,Occupation,Miscellaneous Computer Occupations,15-1290
+bls-15-1299,Occupation,"Computer Occupations, All Other",15-1299
+bls-15-1299.08,Occupation,Computer Systems Engineers/Architects,15-1299.08
+bls-15-2021,Occupation,Mathematicians,15-2021
+bls-15-2030,Occupation,Operations Research Analysts,15-2030
+bls-15-2031,Occupation,Operations Research Analysts,15-2031
+bls-15-2031.00,Occupation,Operations Research Analysts,15-2031.00
+bls-15-2040,Occupation,Statisticians,15-2040
+bls-15-2041,Occupation,Statisticians,15-2041
+bls-15-2041.00,Occupation,Statisticians,15-2041.00
+bls-15-2050,Occupation,Data Scientists,15-2050
+bls-15-2051,Occupation,Data Scientists,15-2051
+bls-15-2090,Occupation,Miscellaneous Mathematical Science Occupations,15-2090
+bls-15_1210,Occupation,,15_1210
+bls-15_1220,Occupation,,15_1220
+bls-15_1230,Occupation,,15_1230
+bls-15_1232,Occupation,,15_1232
+bls-15_1240,Occupation,,15_1240
+bls-15_1250,Occupation,,15_1250
+bls-15_1251,Occupation,,15_1251
+bls-15_1256,Occupation,,15_1256
+bls-15_1257,Occupation,,15_1257
+bls-15_1259,Occupation,,15_1259
+bls-15_1290,Occupation,,15_1290
+bls-15_2030,Occupation,,15_2030
+bls-15_2031,Occupation,,15_2031
+bls-15_2040,Occupation,,15_2040
+bls-15_2090,Occupation,,15_2090
+bls-17-0000,Occupation,Architecture and Engineering Occupations,17-0000
+bls-17-2080,Occupation,Environmental Engineers,17-2080
+bls-17-2081,Occupation,Environmental Engineers,17-2081
+bls-17-2081.00,Occupation,Environmental Engineers,17-2081.00
+bls-17-2081.01,Occupation,,17-2081.01
+bls-17-2110,Occupation,"Industrial Engineers, Including Health and Safety",17-2110
+bls-17-2111,Occupation,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",17-2111
+bls-17-2111.00,Occupation,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",17-2111.00
+bls-17-2111.01,Occupation,,17-2111.01
+bls-17-2111.02,Occupation,Fire-Prevention and Protection Engineers,17-2111.02
+bls-17-2111.03,Occupation,,17-2111.03
+bls-17-2112,Occupation,Industrial Engineers,17-2112
+bls-17-2112.00,Occupation,Industrial Engineers,17-2112.00
+bls-17-2112.01,Occupation,Human Factors Engineers and Ergonomists,17-2112.01
+bls-17-2190,Occupation,Miscellaneous Engineers,17-2190
+bls-17-2199,Occupation,"Engineers, All Other",17-2199
+bls-17-2199.00,Occupation,"Engineers, All Other",17-2199.00
+bls-17-2199.01,Occupation,,17-2199.01
+bls-17-2199.02,Occupation,,17-2199.02
+bls-17-2199.03,Occupation,"Energy Engineers, Except Wind and Solar",17-2199.03
+bls-17-2199.04,Occupation,,17-2199.04
+bls-17-2199.05,Occupation,Mechatronics Engineers,17-2199.05
+bls-17-2199.06,Occupation,Microsystems Engineers,17-2199.06
+bls-17-2199.07,Occupation,Photonics Engineers,17-2199.07
+bls-17-2199.08,Occupation,Robotics Engineers,17-2199.08
+bls-17-2199.09,Occupation,Nanosystems Engineers,17-2199.09
+bls-17-2199.10,Occupation,Wind Energy Engineers,17-2199.10
+bls-17-2199.11,Occupation,Solar Energy Systems Engineers,17-2199.11
+bls-17-3020,Occupation,"Engineering Technologists and Technicians, Except Drafters",17-3020
+bls-17-3021,Occupation,Aerospace Engineering and Operations Technologists and Technicians,17-3021
+bls-17-3021.00,Occupation,Aerospace Engineering and Operations Technologists and Technicians,17-3021.00
+bls-17-3022,Occupation,Civil Engineering Technologists and Technicians,17-3022
+bls-17-3022.00,Occupation,Civil Engineering Technologists and Technicians,17-3022.00
+bls-17-3023,Occupation,Electrical and Electronic Engineering Technologists and Technicians,17-3023
+bls-17-3023.00,Occupation,Electrical and Electronic Engineering Technologists and Technicians,17-3023.00
+bls-17-3023.01,Occupation,,17-3023.01
+bls-17-3023.03,Occupation,,17-3023.03
+bls-17-3024,Occupation,Electro-Mechanical and Mechatronics Technologists and Technicians,17-3024
+bls-17-3024.00,Occupation,Electro-Mechanical and Mechatronics Technologists and Technicians,17-3024.00
+bls-17-3024.01,Occupation,Robotics Technicians,17-3024.01
+bls-17-3025,Occupation,Environmental Engineering Technologists and Technicians,17-3025
+bls-17-3025.00,Occupation,Environmental Engineering Technologists and Technicians,17-3025.00
+bls-17-3026,Occupation,Industrial Engineering Technologists and Technicians,17-3026
+bls-17-3026.00,Occupation,Industrial Engineering Technologists and Technicians,17-3026.00
+bls-17-3027,Occupation,Mechanical Engineering Technologists and Technicians,17-3027
+bls-17-3027.00,Occupation,Mechanical Engineering Technologists and Technicians,17-3027.00
+bls-17-3027.01,Occupation,Automotive Engineering Technicians,17-3027.01
+bls-17-3028,Occupation,Calibration Technologists and Technicians,17-3028
+bls-17-3029,Occupation,"Engineering Technologists and Technicians, Except Drafters, All Other",17-3029
+bls-17-3029.00,Occupation,"Engineering Technologists and Technicians, Except Drafters, All Other",17-3029.00
+bls-17-3029.01,Occupation,Non-Destructive Testing Specialists,17-3029.01
+bls-17-3029.02,Occupation,,17-3029.02
+bls-17-3029.03,Occupation,,17-3029.03
+bls-17-3029.04,Occupation,,17-3029.04
+bls-17-3029.05,Occupation,,17-3029.05
+bls-17-3029.06,Occupation,,17-3029.06
+bls-17-3029.07,Occupation,,17-3029.07
+bls-17-3029.08,Occupation,Photonics Technicians,17-3029.08
+bls-17-3029.09,Occupation,,17-3029.09
+bls-17-3029.10,Occupation,,17-3029.10
+bls-17-3029.11,Occupation,,17-3029.11
+bls-17-3029.12,Occupation,,17-3029.12
+bls-17-3098,Occupation,"Calibration Technologists and Technicians and Engineering Technologists and Technicians, Except Drafters, All Other",17-3098
+bls-17_2080,Occupation,,17_2080
+bls-17_2110,Occupation,,17_2110
+bls-17_2190,Occupation,,17_2190
+bls-17_3020,Occupation,,17_3020
+bls-19-0000,Occupation,"Life, Physical, and Social Science Occupations",19-0000
+bls-19-3010,Occupation,Economists,19-3010
+bls-19-3011,Occupation,Economists,19-3011
+bls-19-3011.00,Occupation,Economists,19-3011.00
+bls-19-4060,Occupation,Social Science Research Assistants,19-4060
+bls-19-4061,Occupation,Social Science Research Assistants,19-4061
+bls-19-4061.00,Occupation,Social Science Research Assistants,19-4061.00
+bls-19-4090,Occupation,"Miscellaneous Life, Physical, and Social Science Technicians",19-4090
+bls-19-4092,Occupation,Forensic Science Technicians,19-4092
+bls-1900,Occupation,,1900
+bls-19_3010,Occupation,,19_3010
+bls-19_4060,Occupation,,19_4060
+bls-19_4090,Occupation,,19_4090
+bls-21-0000,Occupation,Community and Social Service Occupations,21-0000
+bls-21-1000,Occupation,"Counselors, Social Workers, and Other Community and Social Service Specialists",21-1000
+bls-21-1010,Occupation,Counselors,21-1010
+bls-21-1012.00,Occupation,"Educational, Guidance, and Career Counselors and Advisors",21-1012.00
+bls-21-1015,Occupation,Rehabilitation Counselors,21-1015
+bls-21-1018,Occupation,"Substance Abuse, Behavioral Disorder, and Mental Health Counselors",21-1018
+bls-21-1020,Occupation,Social Workers,21-1020
+bls-21-1022,Occupation,Healthcare Social Workers,21-1022
+bls-21-1090,Occupation,Miscellaneous Community and Social Service Specialists,21-1090
+bls-21-1091,Occupation,Health Education Specialists,21-1091
+bls-21-1093,Occupation,Social and Human Service Assistants,21-1093
+bls-21-1094,Occupation,Community Health Workers,21-1094
+bls-21-1094.00,Occupation,Community Health Workers,21-1094.00
+bls-21-1099,Occupation,"Community and Social Service Specialists, All Other",21-1099
+bls-21_1090,Occupation,,21_1090
+bls-21_1094,Occupation,,21_1094
+bls-25-0000,Occupation,Educational Instruction and Library Occupations,25-0000
+bls-25-1010,Occupation,"Business Teachers, Postsecondary",25-1010
+bls-25-1011,Occupation,"Business Teachers, Postsecondary",25-1011
+bls-25-1011.00,Occupation,"Business Teachers, Postsecondary",25-1011.00
+bls-25-1020,Occupation,"Math and Computer Science Teachers, Postsecondary",25-1020
+bls-25-1021,Occupation,"Computer Science Teachers, Postsecondary",25-1021
+bls-25-1021.00,Occupation,"Computer Science Teachers, Postsecondary",25-1021.00
+bls-25-1022,Occupation,"Mathematical Science Teachers, Postsecondary",25-1022
+bls-25-1022.00,Occupation,"Mathematical Science Teachers, Postsecondary",25-1022.00
+bls-25-1040,Occupation,"Life Sciences Teachers, Postsecondary",25-1040
+bls-25-1041,Occupation,"Agricultural Sciences Teachers, Postsecondary",25-1041
+bls-25-1041.00,Occupation,"Agricultural Sciences Teachers, Postsecondary",25-1041.00
+bls-25-1042,Occupation,"Biological Science Teachers, Postsecondary",25-1042
+bls-25-1042.00,Occupation,"Biological Science Teachers, Postsecondary",25-1042.00
+bls-25-1043,Occupation,"Forestry and Conservation Science Teachers, Postsecondary",25-1043
+bls-25-1043.00,Occupation,"Forestry and Conservation Science Teachers, Postsecondary",25-1043.00
+bls-25-1050,Occupation,"Physical Sciences Teachers, Postsecondary",25-1050
+bls-25-1051,Occupation,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",25-1051
+bls-25-1051.00,Occupation,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",25-1051.00
+bls-25-1052,Occupation,"Chemistry Teachers, Postsecondary",25-1052
+bls-25-1052.00,Occupation,"Chemistry Teachers, Postsecondary",25-1052.00
+bls-25-1053,Occupation,"Environmental Science Teachers, Postsecondary",25-1053
+bls-25-1053.00,Occupation,"Environmental Science Teachers, Postsecondary",25-1053.00
+bls-25-1054,Occupation,"Physics Teachers, Postsecondary",25-1054
+bls-25-1054.00,Occupation,"Physics Teachers, Postsecondary",25-1054.00
+bls-25-1060,Occupation,"Social Sciences Teachers, Postsecondary",25-1060
+bls-25-1061,Occupation,"Anthropology and Archeology Teachers, Postsecondary",25-1061
+bls-25-1061.00,Occupation,"Anthropology and Archeology Teachers, Postsecondary",25-1061.00
+bls-25-1062,Occupation,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary",25-1062
+bls-25-1062.00,Occupation,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary",25-1062.00
+bls-25-1063,Occupation,"Economics Teachers, Postsecondary",25-1063
+bls-25-1063.00,Occupation,"Economics Teachers, Postsecondary",25-1063.00
+bls-25-1064,Occupation,"Geography Teachers, Postsecondary",25-1064
+bls-25-1064.00,Occupation,"Geography Teachers, Postsecondary",25-1064.00
+bls-25-1065,Occupation,"Political Science Teachers, Postsecondary",25-1065
+bls-25-1065.00,Occupation,"Political Science Teachers, Postsecondary",25-1065.00
+bls-25-1066,Occupation,"Psychology Teachers, Postsecondary",25-1066
+bls-25-1066.00,Occupation,"Psychology Teachers, Postsecondary",25-1066.00
+bls-25-1067,Occupation,"Sociology Teachers, Postsecondary",25-1067
+bls-25-1067.00,Occupation,"Sociology Teachers, Postsecondary",25-1067.00
+bls-25-1069,Occupation,"Social Sciences Teachers, Postsecondary, All Other",25-1069
+bls-25-1069.00,Occupation,"Social Sciences Teachers, Postsecondary, All Other",25-1069.00
+bls-25-1070,Occupation,"Health Teachers, Postsecondary",25-1070
+bls-25-1071,Occupation,"Health Specialties Teachers, Postsecondary",25-1071
+bls-25-1071.00,Occupation,"Health Specialties Teachers, Postsecondary",25-1071.00
+bls-25-1072,Occupation,"Nursing Instructors and Teachers, Postsecondary",25-1072
+bls-25-1072.00,Occupation,"Nursing Instructors and Teachers, Postsecondary",25-1072.00
+bls-25-1080,Occupation,"Education and Library Science Teachers, Postsecondary",25-1080
+bls-25-1081,Occupation,"Education Teachers, Postsecondary",25-1081
+bls-25-1081.00,Occupation,"Education Teachers, Postsecondary",25-1081.00
+bls-25-1082,Occupation,"Library Science Teachers, Postsecondary",25-1082
+bls-25-1082.00,Occupation,"Library Science Teachers, Postsecondary",25-1082.00
+bls-25-1120,Occupation,"Arts, Communications, History, and Humanities Teachers, Postsecondary",25-1120
+bls-25-1121,Occupation,"Art, Drama, and Music Teachers, Postsecondary",25-1121
+bls-25-1121.00,Occupation,"Art, Drama, and Music Teachers, Postsecondary",25-1121.00
+bls-25-1122,Occupation,"Communications Teachers, Postsecondary",25-1122
+bls-25-1122.00,Occupation,"Communications Teachers, Postsecondary",25-1122.00
+bls-25-1123,Occupation,"English Language and Literature Teachers, Postsecondary",25-1123
+bls-25-1123.00,Occupation,"English Language and Literature Teachers, Postsecondary",25-1123.00
+bls-25-1124,Occupation,"Foreign Language and Literature Teachers, Postsecondary",25-1124
+bls-25-1124.00,Occupation,"Foreign Language and Literature Teachers, Postsecondary",25-1124.00
+bls-25-1125,Occupation,"History Teachers, Postsecondary",25-1125
+bls-25-1125.00,Occupation,"History Teachers, Postsecondary",25-1125.00
+bls-25-1126,Occupation,"Philosophy and Religion Teachers, Postsecondary",25-1126
+bls-25-1126.00,Occupation,"Philosophy and Religion Teachers, Postsecondary",25-1126.00
+bls-25-2010,Occupation,Preschool and Kindergarten Teachers,25-2010
+bls-25-2011,Occupation,"Preschool Teachers, Except Special Education",25-2011
+bls-25-2011.00,Occupation,"Preschool Teachers, Except Special Education",25-2011.00
+bls-25-2012,Occupation,"Kindergarten Teachers, Except Special Education",25-2012
+bls-25-2012.00,Occupation,"Kindergarten Teachers, Except Special Education",25-2012.00
+bls-25-2020,Occupation,Elementary and Middle School Teachers,25-2020
+bls-25-2021,Occupation,"Elementary School Teachers, Except Special Education",25-2021
+bls-25-2021.00,Occupation,"Elementary School Teachers, Except Special Education",25-2021.00
+bls-25-2022,Occupation,"Middle School Teachers, Except Special and Career/Technical Education",25-2022
+bls-25-2022.00,Occupation,"Middle School Teachers, Except Special and Career/Technical Education",25-2022.00
+bls-25-2023,Occupation,"Career/Technical Education Teachers, Middle School",25-2023
+bls-25-2030,Occupation,Secondary School Teachers,25-2030
+bls-25-2031,Occupation,"Secondary School Teachers, Except Special and Career/Technical Education",25-2031
+bls-25-2031.00,Occupation,"Secondary School Teachers, Except Special and Career/Technical Education",25-2031.00
+bls-25-2032,Occupation,"Career/Technical Education Teachers, Secondary School",25-2032
+bls-25-2050,Occupation,Special Education Teachers,25-2050
+bls-25-2051,Occupation,"Special Education Teachers, Preschool",25-2051
+bls-25-2051.00,Occupation,"Special Education Teachers, Preschool",25-2051.00
+bls-25-2052,Occupation,"Special Education Teachers, Kindergarten and Elementary School",25-2052
+bls-25-2055,Occupation,"Special Education Teachers, Kindergarten",25-2055
+bls-25-2055.00,Occupation,"Special Education Teachers, Kindergarten",25-2055.00
+bls-25-2056,Occupation,"Special Education Teachers, Elementary School",25-2056
+bls-25-2056.00,Occupation,"Special Education Teachers, Elementary School",25-2056.00
+bls-25-2057,Occupation,"Special Education Teachers, Middle School",25-2057
+bls-25-2057.00,Occupation,"Special Education Teachers, Middle School",25-2057.00
+bls-25-2058,Occupation,"Special Education Teachers, Secondary School",25-2058
+bls-25-2058.00,Occupation,"Special Education Teachers, Secondary School",25-2058.00
+bls-25-2059,Occupation,"Special Education Teachers, All Other",25-2059
+bls-25-2059.00,Occupation,"Special Education Teachers, All Other",25-2059.00
+bls-25-3000,Occupation,Other Teachers and Instructors,25-3000
+bls-25-3010,Occupation,"Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",25-3010
+bls-25-3011,Occupation,"Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",25-3011
+bls-25-3090,Occupation,Miscellaneous Teachers and Instructors,25-3090
+bls-25-3099,Occupation,"Teachers and Instructors, All Other",25-3099
+bls-25-4020,Occupation,Librarians and Media Collections Specialists,25-4020
+bls-25-4022,Occupation,Librarians and Media Collections Specialists,25-4022
+bls-25-9000,Occupation,Other Educational Instruction and Library Occupations,25-9000
+bls-25-9011,Occupation,,25-9011
+bls-25-9011.00,Occupation,,25-9011.00
+bls-25-9030,Occupation,Instructional Coordinators,25-9030
+bls-25-9031,Occupation,Instructional Coordinators,25-9031
+bls-25-9031.00,Occupation,Instructional Coordinators,25-9031.00
+bls-25-9031.01,Occupation,,25-9031.01
+bls-25-9042.00,Occupation,"Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",25-9042.00
+bls-25-9043.00,Occupation,"Teaching Assistants, Special Education",25-9043.00
+bls-25-9090,Occupation,Miscellaneous Educational Instruction and Library Workers,25-9090
+bls-25-9099,Occupation,"Educational Instruction and Library Workers, All Other",25-9099
+bls-25-9099.00,Occupation,"Educational Instruction and Library Workers, All Other",25-9099.00
+bls-25_1010,Occupation,,25_1010
+bls-25_1020,Occupation,,25_1020
+bls-25_1040,Occupation,,25_1040
+bls-25_1050,Occupation,,25_1050
+bls-25_1060,Occupation,,25_1060
+bls-25_1070,Occupation,,25_1070
+bls-25_1080,Occupation,,25_1080
+bls-25_1120,Occupation,,25_1120
+bls-25_2020,Occupation,,25_2020
+bls-25_2030,Occupation,,25_2030
+bls-25_2050,Occupation,,25_2050
+bls-25_3010,Occupation,,25_3010
+bls-25_4020,Occupation,,25_4020
+bls-25_9030,Occupation,,25_9030
+bls-25_9090,Occupation,,25_9090
+bls-2665846,Occupation,,2665846
+bls-29-0000,Occupation,Healthcare Practitioners and Technical Occupations,29-0000
+bls-29-1040,Occupation,Optometrists,29-1040
+bls-29-1041,Occupation,Optometrists,29-1041
+bls-29-1050,Occupation,Pharmacists,29-1050
+bls-29-1051,Occupation,Pharmacists,29-1051
+bls-29-1070,Occupation,Physician Assistants,29-1070
+bls-29-1071,Occupation,Physician Assistants,29-1071
+bls-29-1126,Occupation,Respiratory Therapists,29-1126
+bls-29-1140,Occupation,Registered Nurses,29-1140
+bls-29-1141,Occupation,Registered Nurses,29-1141
+bls-29-1141.00,Occupation,Registered Nurses,29-1141.00
+bls-29-1141.01,Occupation,Acute Care Nurses,29-1141.01
+bls-29-1141.02,Occupation,Advanced Practice Psychiatric Nurses,29-1141.02
+bls-29-1141.03,Occupation,Critical Care Nurses,29-1141.03
+bls-29-1141.04,Occupation,Clinical Nurse Specialists,29-1141.04
+bls-29-1170,Occupation,Nurse Practitioners,29-1170
+bls-29-1171,Occupation,Nurse Practitioners,29-1171
+bls-29-1290,Occupation,Miscellaneous Healthcare Diagnosing or Treating Practitioners,29-1290
+bls-29-1292,Occupation,Dental Hygienists,29-1292
+bls-29-2050,Occupation,Health Practitioner Support Technologists and Technicians,29-2050
+bls-29-2052,Occupation,Pharmacy Technicians,29-2052
+bls-29-2070,Occupation,Medical Records Specialists,29-2070
+bls-29-2071,Occupation,,29-2071
+bls-29-2071.00,Occupation,,29-2071.00
+bls-29-2072,Occupation,Medical Records Specialists,29-2072
+bls-29-2072.00,Occupation,Medical Records Specialists,29-2072.00
+bls-29-2080,Occupation,"Opticians, Dispensing",29-2080
+bls-29-2081,Occupation,"Opticians, Dispensing",29-2081
+bls-29-2098,Occupation,"Medical Dosimetrists, Medical Records Specialists, and Health Technologists and Technicians, All Other",29-2098
+bls-29_1140,Occupation,,29_1140
+bls-29_1141,Occupation,,29_1141
+bls-29_1170,Occupation,,29_1170
+bls-29_2050,Occupation,,29_2050
+bls-31-0000,Occupation,Healthcare Support Occupations,31-0000
+bls-31-1120,Occupation,Home Health and Personal Care Aides,31-1120
+bls-31-1130,Occupation,"Nursing Assistants, Orderlies, and Psychiatric Aides",31-1130
+bls-31-1131,Occupation,Nursing Assistants,31-1131
+bls-31-9090,Occupation,Miscellaneous Healthcare Support Occupations,31-9090
+bls-31-9091,Occupation,Dental Assistants,31-9091
+bls-31-9092,Occupation,Medical Assistants,31-9092
+bls-31-9095,Occupation,Pharmacy Aides,31-9095
+bls-31-909529-1141,Occupation,,31-909529-1141
+bls-31_9090,Occupation,,31_9090
+bls-33-0000,Occupation,Protective Service Occupations,33-0000
+bls-33-1010,Occupation,First-Line Supervisors of Law Enforcement Workers,33-1010
+bls-33-3010,Occupation,"Bailiffs, Correctional Officers, and Jailers",33-3010
+bls-33-3020,Occupation,Detectives and Criminal Investigators,33-3020
+bls-33-3021,Occupation,Detectives and Criminal Investigators,33-3021
+bls-33-3050,Occupation,Police Officers,33-3050
+bls-33_1010,Occupation,,33_1010
+bls-33_3010,Occupation,,33_3010
+bls-33_3020,Occupation,,33_3020
+bls-33_3050,Occupation,,33_3050
+bls-36831,Occupation,,36831
+bls-37-0000,Occupation,Building and Grounds Cleaning and Maintenance Occupations,37-0000
+bls-37-1010,Occupation,First-Line Supervisors of Building and Grounds Cleaning and Maintenance Workers,37-1010
+bls-37-1011,Occupation,First-Line Supervisors of Housekeeping and Janitorial Workers,37-1011
+bls-37-1011.00,Occupation,First-Line Supervisors of Housekeeping and Janitorial Workers,37-1011.00
+bls-39-0000,Occupation,Personal Care and Service Occupations,39-0000
+bls-39-1010,Occupation,First-Line Supervisors of Entertainment and Recreation Workers,39-1010
+bls-39-1011,Occupation,,39-1011
+bls-39-1011.00,Occupation,,39-1011.00
+bls-39-1020,Occupation,First-Line Supervisors of Personal Service Workers,39-1020
+bls-39-1022,Occupation,First-Line Supervisors of Personal Service Workers,39-1022
+bls-39-1022.00,Occupation,First-Line Supervisors of Personal Service Workers,39-1022.00
+bls-41-1011,Occupation,First-Line Supervisors of Retail Sales Workers,41-1011
+bls-41-2031,Occupation,Retail Salespersons,41-2031
+bls-43-0000,Occupation,Office and Administrative Support Occupations,43-0000
+bls-43-3031.00,Occupation,"Bookkeeping, Accounting, and Auditing Clerks",43-3031.00
+bls-449919,Occupation,,449919
+bls-89A0,Occupation,,89A0
+bls-89B0,Occupation,,89B0
+bls-89C0,Occupation,,89C0
+bls-89D0,Occupation,,89D0
+bls-89E0,Occupation,,89E0
+bls-89F0,Occupation,,89F0
+bls-89G0,Occupation,,89G0
+bls-89H0,Occupation,,89H0
+bls-89I0,Occupation,,89I0
+bls-8L100,Occupation,,8L100
+bls-8L200,Occupation,,8L200
+bls-8L300,Occupation,,8L300
+bls-8L400,Occupation,,8L400
+bls-8L500,Occupation,,8L500
+bls-8L600,Occupation,,8L600
+bls-8L700,Occupation,,8L700
+bls-8L800,Occupation,,8L800
+bls-8L900,Occupation,,8L900
+bls-Economics,Occupation,,Economics
+bls-Inquiry,Occupation,,Inquiry
+bls-Nov-30,Occupation,,Nov-30
+bls-Nov-31,Occupation,,Nov-31
