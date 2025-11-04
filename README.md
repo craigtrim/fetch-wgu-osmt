@@ -6,6 +6,8 @@
 [![rdflib 6.x](https://img.shields.io/badge/rdflib-6.x-green.svg)](#)
 [![CLI](https://img.shields.io/badge/CLI-wgu__osmt__builder-lightgrey.svg)](#)
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](#)
+[![Ontology TTL](https://img.shields.io/badge/TTL-wgu--osmt--skills--ontology-blueviolet.svg)](https://github.com/craigtrim/wgu-osmt-skills-ontology/releases)
+[![Dataset](https://img.shields.io/badge/dataset-wgu--osmt--skills--dataset-orange.svg)](https://github.com/craigtrim/wgu-osmt-skills-dataset)
 
 Convert WGU OSMT skill JSON to Turtle and generate label reports. Optionally fetch JSON from WGU export CSVs.
 
