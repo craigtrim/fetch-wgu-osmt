@@ -34,3 +34,6 @@ do_validate:
 
 do_graph:
 	poetry run python -m wgu_osmt_builder.common.cli graph
+
+do_neo_load:
+	cypher-shell -f wgu_osmt_builder/graph/constraints.cypher

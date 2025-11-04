@@ -57,3 +57,4 @@ wgu_osmt_builder/data/out/reports/*
 # Dependency pins (local only)
 poetry.lock
 requirements.txt
+neo_env.local.sh
