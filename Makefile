@@ -1,8 +1,3 @@
-# ----------------------------------------------------------------
-# Name:		Libs/WGU-OSMT
-# Purpose:	Build WGU OSMT
-# ----------------------------------------------------------------
-
 install:
 	poetry lock
 	poetry check
@@ -30,5 +25,8 @@ all:
 fetch:
 	poetry run python -m wgu_osmt_builder.common.cli fetch --dir wgu_osmt_builder/data/sources
 
-build:
+build_ttl:
 	poetry run python -m wgu_osmt_builder.common.cli build
+
+validate:
+	poetry run python -m wgu_osmt_builder.common.cli validate

@@ -1,186 +1,96 @@
-# WGU OSMT Fetcher
+# WGU OSMT Builder
 
-![Python](https://img.shields.io/badge/python-3.11-blue.svg)
-![Source](https://img.shields.io/badge/source-WGU%20OSMT-orange.svg)
-![HTTP](https://img.shields.io/badge/http-requests-success.svg)
-![Proxies](https://img.shields.io/badge/proxy-optional-lightgrey.svg)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![RDF/Turtle](https://img.shields.io/badge/RDF-Turtle-0a7bbc.svg)](#)
+[![rdflib 6.x](https://img.shields.io/badge/rdflib-6.x-green.svg)](#)
+[![CLI](https://img.shields.io/badge/CLI-wgu__osmt__builder-lightgrey.svg)](#)
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](#)
 
-## Purpose
+Convert WGU OSMT skill JSON to Turtle and generate label reports. Optionally fetch JSON from WGU export CSVs.
 
-Download public WGU OSMT skill JSON from CSV files that list their canonical URLs.
+## Artifacts
 
-Flow:
+- Canonical TTL releases: **wgu-osmt-skills-ontology**  
+  https://github.com/craigtrim/wgu-osmt-skills-ontology
+- Canonical JSON skills + CSV collections: **wgu-osmt-skills-dataset**  
+  https://github.com/craigtrim/wgu-osmt-skills-dataset
 
-1. Orchestrator walks a directory and finds CSVs.
-2. Keeps only CSVs that have a `Canonical URL` column.
-3. For each CSV calls the fetch service.
-4. Service downloads every `https://osmt.wgu.edu/...` URL, once.
-5. Saves as `<uuid>.json` under `resources/output/wgu-skills/`.
-6. Skips files that already exist.
-
-## Repo layout
+## Layout
 
 ```
-wgu-osmt/
-├── Makefile
-├── pyproject.toml
-├── resources/
-│ └── input/
-│ └── proxies.txt # optional
-└── wgu_osmt/
-├── orchestrator.py
-└── svc/
-└── fetch_wgu_data.py
+wgu_osmt_builder/
+  common/        # logging, paths, CLI, proxies config
+  fetch/         # collections orchestrator, JSON fetcher
+  build/         # JSON→TTL converter, assembler
+  validate/      # report extractors
+  data/
+    sources/     # CSV collections (inputs)
+    raw/         # downloaded JSON skills (inputs)
+    out/
+      ttl/       # per-skill TTL + merged skills.ttl
+      reports/   # extracted label lists
 ```
 
-- `wgu_osmt/orchestrator.py` = entry point.
-- `wgu_osmt/svc/fetch_wgu_data.py` = per-CSV downloader.
-- `resources/input/proxies.txt` = optional list of proxies.
+Paths are centralized in `wgu_osmt_builder/common/paths.py`: `DATA`, `SOURCES`, `RAW`, `OUT`, `TTL_OUT`, `REPORTS`.
 
-## What the orchestrator does
+## Quickstart
 
-- Recurses under a root directory (default `resources/input`).
-- Finds every `*.csv`.
-- Opens the file and checks the header.
-- If header contains `Canonical URL` it processes it.
-- Otherwise it logs and skips.
-
-This matches your code:
-
+Install
 ```
-python -m wgu_osmt.orchestrator resources/input
+poetry install
 ```
 
-or
-
+Fetch JSON from CSVs in `data/sources`
 ```
-python wgu_osmt/orchestrator.py resources/input
-```
-
-If no arg is given it uses the env var:
-
-- `WGU_CSV_ROOT=...`
-
-or falls back to:
-
-- `resources/input`
-
-## CSV requirements
-
-The CSV must have:
-
-- a header row
-- a column named `Canonical URL`
-
-Example:
-
-```
-"Canonical URL","RSD Name","Skill Statement",...
-"https://osmt.wgu.edu/api/skills/de1ed4d0-78ce-4072-917b-1d35c41e37e0","New Technology Implementation",...
+poetry run python -m wgu_osmt_builder.common.cli fetch --dir wgu_osmt_builder/data/sources
 ```
 
-The service will ignore every URL that does **not** start with:
+Build TTL and merge to `data/out/ttl/skills.ttl`
+```
+poetry run python -m wgu_osmt_builder.common.cli build
+```
 
-- `https://osmt.wgu.edu`
+Generate reports to `data/out/reports/`
+```
+poetry run python -m wgu_osmt_builder.common.cli validate
+```
 
-So if the CSV also has `https://skills.emsidata.com/...` those will be skipped.
+## CLI
 
-## Download rules
+Fetch from a directory of CSVs (CSV must contain **Canonical URL**)
+```
+python -m wgu_osmt_builder.common.cli fetch --dir <dir>
+```
 
-Given a URL:
+Fetch from a single CSV
+```
+python -m wgu_osmt_builder.common.cli fetch --csv <file> [--out <json_out>] [--proxies <proxies.txt>] [--pause 0.5]
+```
 
-- `https://osmt.wgu.edu/api/skills/de1ed4d0-78ce-4072-917b-1d35c41e37e0`
+Build JSON → TTL and merge
+```
+python -m wgu_osmt_builder.common.cli build [--json-root <dir>] [--ttl-out <dir>] [--merged <path>]
+```
 
-we extract the last segment:
+Validate reports from `skills.ttl`
+```
+python -m wgu_osmt_builder.common.cli validate [--ttl <path>] [--out-dir <dir>] [--lang en] [--alt] [--alignments|--bls|--keywords|--rsd|--all]
+```
 
-- `de1ed4d0-78ce-4072-917b-1d35c41e37e0`
+## Make targets
 
-and save to:
+```
+make fetch       # fetch JSON from data/sources
+make build_ttl   # build per-skill TTL and merged skills.ttl
+make validate    # generate label reports
+```
 
-- `resources/output/wgu-skills/de1ed4d0-78ce-4072-917b-1d35c41e37e0.json`
+## Proxies (optional)
 
-If that file exists we do **not** call the URL again.
-
-## Service (fetch_wgu_data.py)
-
-The service:
-
-1. Reads the CSV.
-2. Filters to URLs that start with `https://osmt.wgu.edu`.
-3. For each URL
-   - derive `skill_id`
-   - check if file exists
-   - if not, GET JSON
-   - save compact JSON
-
-JSON is saved without indent to keep files small.
-
-## Proxies
-
-The service looks for:
-
-- `resources/input/proxies.txt`
-
-Format:
-
+Place `proxies.txt` in `wgu_osmt_builder/common/config/`:
 ```
 1.2.3.4:8080
 5.6.7.8:3128
 ```
-
-If the file is present it will:
-
-- load all proxies
-- verify each proxy once via `https://httpbin.org/ip`
-- mark bad or leaky proxies
-- choose a healthy proxy for each request
-
-If the file is **not** present it logs:
-
-- `No proxies file ... Using direct requests.`
-
-and just uses direct HTTP.
-
-## Logging
-
-Both orchestrator and service use:
-
-- `wgu_osmt.dto.configure_logger`
-
-Typical messages:
-
-- `📂 Found N CSV file(s) under ...`
-- `⏭️ Skip non-WGU CSV: ...`
-- `▶️ Processing WGU CSV: ...`
-- `🌐 GET https://osmt.wgu.edu/... via direct`
-- `📦 Saved <uuid>.json`
-- `🔁 Skip <uuid>.json (already exists)`
-
-This makes runs idempotent and traceable.
-
-## Running examples
-
-Run orchestrator on default location:
-
-```
-python -m wgu_osmt.orchestrator
-```
-
-Run orchestrator on a specific folder:
-
-```
-python -m wgu_osmt.orchestrator /tmp/wgu-csvs
-```
-
-Run service directly on one CSV:
-
-```
-python -c "from wgu_osmt_builder.svc.fetch_wgu_data import FetchWGUData; FetchWGUData(csv_path='resources/input/wgu-skills.csv').process()"
-```
-
-## Notes
-
-- No HTML/DOM scraping. Endpoint is already JSON.
-- Only `https://osmt.wgu.edu...` is pulled.
-- Safe to re-run. Existing JSON is skipped.
-- If WGU changes the column name from `Canonical URL` then the orchestrator will skip that CSV; update `is_wgu_csv` if that happens.
+If absent the fetcher uses direct requests.
