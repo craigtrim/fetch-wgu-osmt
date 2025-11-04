@@ -12,7 +12,7 @@ from rdflib import Graph, URIRef, Literal
 
 from wgu_osmt_builder.common.log import configure_logger
 from wgu_osmt_builder.common.paths import TTL_OUT, GRAPH
-from wgu_osmt_builder.graph.schema import (
+from wgu_osmt_builder.graph.build.schema import (
     # namespaces, classes, props
     RDF,
     CLS_RSD, CLS_KEYWORD, CLS_CATEGORY, CLS_STANDARD, CLS_OCCUPATION, CLS_COLLECTION, CLS_ALIGNMENT,

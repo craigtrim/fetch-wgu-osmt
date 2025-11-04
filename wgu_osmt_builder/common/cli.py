@@ -36,7 +36,7 @@ from wgu_osmt_builder.validate.keywords import extract_keyword_labels
 from wgu_osmt_builder.validate.rsd import extract_rsd_pref_labels
 
 # graph export
-from wgu_osmt_builder.graph.export import export_neo_csvs
+from wgu_osmt_builder.graph.build.export import export_neo_csvs
 from wgu_osmt_builder.common.paths import TTL_OUT as _TTL_DEFAULT  # explicit for help text
 try:
     from wgu_osmt_builder.common.paths import GRAPH as GRAPH_OUT_DEFAULT  # optional path
